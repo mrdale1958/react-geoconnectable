@@ -1,0 +1,351 @@
+{
+     "zoomLayers" : {
+        "0" : { 
+          "pannable" : false,
+          "mapZoom" : 4,
+          "site1" : true, 
+          "Mexico" : false ,
+          "spinInstruction" : "spinToContinue",
+          "tiltInstruction" : "spinToContinue",
+      
+        },
+        "1" : { 
+          "pannable" : false,
+          "mapZoom" : 4,
+          "Mexico" : false ,
+          "site2" : true ,
+          "spinInstruction" : "spinToContinue",
+          "tiltInstruction" : "spinToGoBack",
+        },
+        "2" : { 
+          "mapZoom" : 4,
+          "pannable" : false,
+          "Mexico" : false,
+          "site3" : true ,
+          "spinInstruction" : "spinToContinue",
+          "tiltInstruction" : "spinToGoBack",
+        },
+        "3" : { 
+          "pannable" : false,
+          "mapZoom" : 4,
+          "Distrito Federal" : false, 
+          "Sinaloa"  : false,
+          "Chihuahua" : false,
+          "Guerrero"  : false,
+          "Veracruz de Ignacio de la Llave" : false,
+          "site4" : true ,
+          "spinInstruction" : "spinToContinue",
+          "tiltInstruction" : "spinToGoBack",
+        },
+        "4" : { 
+          "pannable" : true,
+          "mapZoom" : 4,
+          "Distrito Federal" : "site6", 
+          "Sinaloa"  : "site5",
+          "Chihuahua" : "site8",
+          "Guerrero"  : "site9",
+          "Veracruz de Ignacio de la Llave" : "site7" ,
+          "spinInstruction" : "huntForHotSpotSpinInstruction",
+          "tiltInstruction" : "huntForHotSpotTiltInstruction",
+        },
+        "5": {
+          "pannable" : true,
+          "mapZoom" : 5,
+          "Distrito Federal" : "site6", 
+          "Sinaloa"  : "site5",
+          "Chihuahua" : "site8",
+          "Guerrero"  : "site9",
+          "Veracruz de Ignacio de la Llave" : "site7" ,
+          "spinInstruction" : "huntForHotSpotSpinInstruction",
+          "tiltInstruction" : "huntForHotSpotTiltInstruction",
+        },
+        "6": {
+          "pannable" : true,
+          "mapZoom" : 6,
+          "Distrito Federal" : "site6", 
+          "Sinaloa"  : "site5",
+          "Chihuahua" : "site8",
+          "Guerrero"  : "site9",
+          "Veracruz de Ignacio de la Llave" : "site7" ,
+          "spinInstruction" : "huntForHotSpotSpinInstruction",
+          "tiltInstruction" : "huntForHotSpotTiltInstruction",
+        },
+        "6": {
+          "pannable" : true,
+          "mapZoom" : 7,
+          "Distrito Federal" : "site6", 
+          "Sinaloa"  : "site5",
+          "Chihuahua" : "site8",
+          "Guerrero"  : "site9",
+          "Veracruz de Ignacio de la Llave" : "site7" ,
+          "spinInstruction" : "huntForHotSpotSpinInstruction",
+          "tiltInstruction" : "huntForHotSpotTiltInstruction",
+        },
+      
+        "7": { 
+          "pannable" : false,
+          "mapZoom" : 7,
+          "site10": true,
+          "Escuinapa" : false,
+          "Sinaloa"  : false,
+          "Elota" : false,
+          "El Fuerte" : false,
+          "CuliacÃ¡n" : false,
+          "Badiraguato" : false,
+          "Guasave" : false,
+          "San Ignacio" : false,
+          "Concordia" : false,
+          "Navolato" : false,
+          "Mocorito" : false,
+          "Rosario" : false,
+          "Angostura" : false,
+          "Choix" : false,
+          "CosalÃ¡" : false,
+          "MazatlÃ¡n" : false,
+          "Salvador Alvarado" : false,
+          "Ahome"  : false ,
+          "spinInstruction" : "spinToContinue",
+          "tiltInstruction" : "spinToGoBack",
+        },
+        "8": {
+          "pannable" : true,
+          "mapZoom" : 8,
+          "Escuinapa" : false,
+          "Sinaloa"  : false,
+          "Elota" : false,
+          "El Fuerte" : false,
+          "CuliacÃ¡n" : "site13",
+          "Badiraguato" : "site14",
+          "Guasave" : false,
+          "San Ignacio" : false,
+          "Concordia" : false,
+          "Navolato" : false,
+          "Mocorito" : false,
+          "Rosario" : false,
+          "Angostura" : false,
+          "Choix" : false,
+          "CosalÃ¡" : false,
+          "MazatlÃ¡n" : "site12",
+          "Salvador Alvarado" : "site15",
+          "Ahome"  : "site11" ,
+          "spinInstruction" : "spinToContinue",
+          "tiltInstruction" : "spinToGoBack",
+        },
+      
+        "9": {
+          "pannable" : true,
+          "mapZoom" : 9,
+            "Escuinapa" : false,
+          "Sinaloa"  : false,
+          "Elota" : false,
+          "El Fuerte" : false,
+          "CuliacÃ¡n" : "site13",
+          "Badiraguato" : "site14",
+          "Guasave" : false,
+          "San Ignacio" : false,
+          "Concordia" : false,
+          "Navolato" : false,
+          "Mocorito" : false,
+          "Rosario" : false,
+          "Angostura" : false,
+          "Choix" : false,
+          "CosalÃ¡" : false,
+          "MazatlÃ¡n" : "site12",
+          "Salvador Alvarado" : "site15",
+          "Ahome"  : "site11" ,
+          "spinInstruction" : "huntForHotSpotSpinInstruction",
+          "tiltInstruction" : "huntForHotSpotTiltInstruction",
+        },
+        "10": {
+          "pannable" : true,
+          "mapZoom" : 10,
+           "Escuinapa" : false,
+          "Sinaloa"  : false,
+          "Elota" : false,
+          "El Fuerte" : false,
+          "CuliacÃ¡n" : "site13",
+          "Badiraguato" : "site14",
+          "Guasave" : false,
+          "San Ignacio" : false,
+          "Concordia" : false,
+          "Navolato" : false,
+          "Mocorito" : false,
+          "Rosario" : false,
+          "Angostura" : false,
+          "Choix" : false,
+          "CosalÃ¡" : false,
+          "MazatlÃ¡n" : "site12",
+          "Salvador Alvarado" : "site15",
+          "Ahome"  : "site11" ,
+          "spinInstruction" : "huntForHotSpotSpinInstruction",
+          "tiltInstruction" : "huntForHotSpotTiltInstruction",
+        },
+        "11": {
+          "pannable" : true,
+           "mapZoom" : 11,
+          "Escuinapa" : false,
+          "Sinaloa"  : false,
+          "Elota" : false,
+          "El Fuerte" : false,
+          "CuliacÃ¡n" : "site13",
+          "Badiraguato" : "site14",
+          "Guasave" : false,
+          "San Ignacio" : false,
+          "Concordia" : false,
+          "Navolato" : false,
+          "Mocorito" : false,
+          "Rosario" : false,
+          "Angostura" : false,
+          "Choix" : false,
+          "CosalÃ¡" : false,
+          "MazatlÃ¡n" : "site12",
+          "Salvador Alvarado" : "site15",
+          "Ahome"  : "site11" ,
+          "spinInstruction" : "huntForHotSpotSpinInstruction",
+          "tiltInstruction" : "huntForHotSpotTiltInstruction",
+        },
+        "12": {
+          "pannable" : false,
+          "mapZoom" : 11,
+          "site16": true,
+          "Ahome" : false ,
+          "spinInstruction" : "spinToContinue",
+          "tiltInstruction" : "spinToGoBack",
+        },
+        "13": {
+          "pannable" : false,
+          "mapZoom" : 11,
+          "site17": true,
+          "Ahome" : false ,
+          "spinInstruction" : "spinToContinue",
+          "tiltInstruction" : "spinToGoBack",
+        },
+        "14": {
+          "pannable" : true,
+           "mapZoom" : 12,
+          "spinInstruction" : "huntForHotSpotSpinInstruction",
+          "tiltInstruction" : "huntForHotSpotTiltInstruction",
+       },
+        "15": {
+          "pannable" : true,
+          "mapZoom" : 13,
+          "spinInstruction" : "huntForHotSpotSpinInstruction",
+          "tiltInstruction" : "huntForHotSpotTiltInstruction",
+        },
+        "16": {
+          "pannable" : true,
+          "mapZoom" : 14,
+           "spinInstruction" : "huntForHotSpotSpinInstruction",
+          "tiltInstruction" : "huntForHotSpotTiltInstruction",
+       },
+        "17": {
+          "pannable" : true,
+           "mapZoom" : 15,
+          "spinInstruction" : "huntForHotSpotSpinInstruction",
+          "tiltInstruction" : "huntForHotSpotTiltInstruction",
+       },
+        "18": {
+          "pannable" : true,
+          "mapZoom" : 16,
+          "spinInstruction" : "huntForHotSpotSpinInstruction",
+          "tiltInstruction" : "huntForHotSpotTiltInstruction",
+        },
+        "19": {
+          "pannable" : true,
+          "mapZoom" : 17,
+          "spinInstruction" : "huntForHotSpotSpinInstruction",
+          "tiltInstruction" : "huntForHotSpotTiltInstruction",
+        },
+        "20": {
+          "pannable" : true,
+           "mapZoom" : 18,
+          "spinInstruction" : "huntForHotSpotSpinInstruction",
+          "tiltInstruction" : "huntForHotSpotTiltInstruction",
+       },
+        "21": {
+          "pannable" : true,
+          "mapZoom" : 19,
+          "spinInstruction" : "huntForHotSpotSpinInstruction",
+          "tiltInstruction" : "huntForHotSpotTiltInstruction",
+        }
+        
+      },
+      
+       "hotspots" : {
+        "site1" : [19.4326077,-99.1332080],
+        "site2" : [19.4326077,-99.1332080],
+        "site3" : [19.4326077,-99.1332080],
+        "site4" : [19.4326077,-99.1332080],
+        "site5" : [25.1721091,-107.4795173],
+        "site6" : [19.4326077,-99.1332080],
+        "site7" : [19.1737730,-96.1342241],
+        "site8" : [28.6329957,-106.0691004],
+        "site9" : [17.4391926,-99.5450974],
+        "site10" : [25.1721091,-107.4795173],
+        "site11" : [25.9197727,-109.1746261],
+        "site12" : [23.2683360,-106.3997339],
+        "site13" : [24.7881148,-107.3737955],
+        "site14" : [25.3628494,-107.5498614],
+        "site15" : [25.4606326,-108.0785167],
+        "site16" : [25.9197727,-109.1746261],
+        "site17" : [25.7904657,-108.9858820],
+      
+      },
+      
+      
+     "regions of interest" :{
+      
+       "features" : {
+        "Sinaloa" : {"geojson": "encuesta_intercensal_2015/shps/sin/sin_entidad.geojson",
+        "style" : 
+        { 
+          "fillColor": "yellow",
+          "strokeWeight": 1
+        }
+      },
+      
+      "Chihuahua" : {"geojson": "encuesta_intercensal_2015/shps/chih/chih_entidad.geojson",
+      "style" : 
+      { 
+        "fillColor": "red",
+        "strokeWeight": 1
+      }
+      },
+      "Guerrero" : {"geojson": "encuesta_intercensal_2015/shps/gro/gro_entidad.geojson",
+      "style" : 
+      { 
+        "fillColor": "green",
+        "strokeWeight": 1
+      }
+      },
+      "Veracruz" : {"geojson": "encuesta_intercensal_2015/shps/ver/ver_entidad.geojson",
+      "style" : 
+      { 
+        "fillColor": "blue",
+        "strokeWeight": 1
+      }
+      },
+      "Sinaloa_counties" : {"geojson": "encuesta_intercensal_2015/shps/sin/sin_municipio.geojson",
+      "style" : 
+      { 
+        "fillColor": "magenta",
+        "strokeWeight": 1
+      }
+      },
+      "Distrito Federal" : {"geojson": "encuesta_intercensal_2015/shps/df/df_entidad.geojson",
+      "style" : 
+      { 
+        "fillColor": "cyan",
+        "strokeWeight": 1
+      }
+      },
+      "Mexico" : {"geojson": "MEX_adm0.geojson",
+      "style" : 
+      { 
+        "fillColor": "white",
+        "strokeWeight": 1
+      }
+      },
+      }
+      }
+}
