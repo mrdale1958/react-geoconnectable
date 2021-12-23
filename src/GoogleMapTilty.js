@@ -27,6 +27,6 @@ class GoogleMapTilty extends React.Component {
   }
 }
 export default GoogleApiWrapper({
-  apiKey: ('nope not here'),
+  apiKey: (process.env.REACT_APP_GOOGLE_MAPS_API_KEY),
   version: 'beta'
 })(GoogleMapTilty);
