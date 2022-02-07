@@ -1,5 +1,7 @@
 @charset "UTF-8";
 :root {
+	--table_diameter: 1080px;
+
 	--lane_text:#ED1C24;
 	--lane_gradient_end:#FFE7C6;
 	--disease_catastrophe:#405E71;
@@ -38,6 +40,10 @@ body {
 #root {
 	display: none;
 }
+.tilting-map {
+	width: var(--table_diameter);
+	height: var(--table_diameter);
+}
 #timeline-block {
 	display: block;
 	min-width: 90000px;
@@ -45,6 +51,31 @@ body {
 	overflow:visible;
 	position:absolute;
 	z-index: 6;
+}
+
+#console-block {
+	position:fixed;
+	top: 0;
+	left: 0;
+	width: 15%;
+}
+#spin-console-block {
+	position:fixed;
+	top: 0;
+	right: 0;
+	width: 15%;
+	color: red;
+	background-color: #424242;
+
+}
+#tilt-console-block {
+	position:fixed;
+	top: 50%;
+	right: 0;
+	width: 15%;
+	color: yellow;
+	background-color: #242424;
+
 }
 
 #lanes-block {

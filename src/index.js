@@ -5,28 +5,41 @@ import reportWebVitals from './reportWebVitals';
 import registerServiceWorker from './registerServiceWorker';
 
 
+
 let config = {
 	
 	//screenWidth : 3840,
 	screenWidth : 1920,
 
 
-	maxZoom : 19,
+	maxZoom : 20,
 	minZoom : 3,
 	currentZoom : 0,
 	currentScale : 1.0,
 	mapData : [],
 	clicksPerRev :  256, // weirdly not 3.14159 * 4 *
 	currentSpinPosition : 0,
-	phidgetPort: 8089,
-	phidgetHost: "localhost",
+	phidgetPort: 8989,
+	phidgetHost: "10.204.40.206",
 	homeCoordinates : { latitude: 41.771312, longitude: -113.212749 },
 	floatZoom : 14.0,
 	lastZoom : -1,
+	incomingURL:window.location.href,
+	travelDistance : 157.4, // inches ... 6.674 screen widtha
+	clickDensity : 255, //clicks per inch
+	availableClicks :  39863,
+	
+	
+		
+	//rightEdge : 3840,
+	rightEdge : 1920,
+	
+	moveTime : 100 // milliseconds
+	
 };
 config.revsPerFullZoom = (config.maxZoom - config.minZoom)/8;
-config.clicksPerZoomLevel =  config.clicksPerRev / config.revsPerFullZoom;
-config.maxClicks = config.clicksPerRev * config.revsPerFullZoom * 1.0;
+config.clicksPerZoomLevel =  config.clicksPerRev * config.revsPerFullZoom;
+config.maxClicks = config.clicksPerRev * config.revsPerFullZoom * (config.maxZoom - config.minZoom);
 
 let fauxPhidgetConfig = {
 	running : false,
@@ -58,8 +71,8 @@ fetch('overlays.json',{
 	runExhibit(0);
 });
 
- 
 function runExhibit(overlayData) {
+
   ReactDOM.render(
     <React.StrictMode>
       <TiltyDisplay db={overlayData} configData={config} />

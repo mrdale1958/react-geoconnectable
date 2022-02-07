@@ -1,7 +1,6 @@
 import React from 'react';
 // import CenturyMarker from './CenturyMarker.js';
 //import GuideGrid from './GuideGrid.js';
-import Year from './Year.js';
 
 class Overlay extends React.Component {
     constructor() {
